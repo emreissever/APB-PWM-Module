@@ -84,13 +84,6 @@ begin
     end 
 end 
 
-// Assumed Controller Clock Frequency Is 16 MHz 
-// So Clock Period Is 62.5 ns 
-//
-// PWM Period = Counter Max Value x Clock Period 
-// 15-Bit Counter Max Value = 32767
-// PWM Period = 32767 x 62.5 ns = 2146238,5 ns 
-// PWM Frequency = 465.931442 Hz
 reg [8:0] counter = 0;
 
 always @(posedge div_clk)
