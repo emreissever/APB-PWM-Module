@@ -38,7 +38,7 @@ As seen in the simulation results, Testbench signals exactly matches the wavefor
 | ---------------------- | ------- | ------ | ----- |
 | PWM Enable             | 0x0     | 1-Bit  | write |
 | PWM Duty Cycle (Width) | 0x1     | 32-Bit | write |
-| PWM Frequency          | 0x0     | 32-Bit | write |
+| PWM Frequency          | 0x2     | 32-Bit | write |
 
 ---
 
