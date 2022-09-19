@@ -4,8 +4,6 @@ The PWM controller can be programmed from an APB interface. Its features the fol
 
 This PWM Module supports APB 3 (AMBA 3 APB Protocol Specificiation v1.0) standarts. 
 
-<br>
-
 ## PWM Module APB Interface Signals
 <br>
 
